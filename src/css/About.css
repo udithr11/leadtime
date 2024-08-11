@@ -1,0 +1,50 @@
+.about-wrapper {
+    font-family: 'Neue Montreal', sans-serif;
+  }
+
+.about-wrapper .container {
+    padding: 7rem 5rem;
+    
+  }
+
+  .about-wrapper .container img {
+    width:576px;
+    max-width:97%;
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    color:#333333;
+    padding-left: 1.75rem;
+  }
+  .about-text h1{
+    font-size:3rem;
+    font-weight:500;
+    padding-right:3rem;
+    letter-spacing:1px;
+    padding-bottom:1.5rem;
+    margin-bottom:0;
+  }
+  .about-text p{
+    font-size:1.125rem;
+    line-height:1.625rem;
+    letter-spacing: 0.7px;
+    margin-bottom:0;
+    padding-bottom:1rem;
+
+  }
+  .about-button{
+    size: 1.125rem;
+    background-color: #222220;
+    width: fit-content;
+    color:white;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 0.9rem 2.6rem;
+    line-height:1.625rem;
+    margin-top:1rem;
+    letter-spacing: 1px;
+
+  }
