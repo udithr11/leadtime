@@ -1,6 +1,11 @@
+
+
 import React from "react";
 import HomeImage from "../assets/Home-bg.png";
 import HomeImage1 from "../assets/Home-1.png";
+import { Button } from "../components/ui/MovingBorder";
+import AnimatedText from "./ui/AnimatedText";
+
 
 const Home = () => {
   return (
@@ -19,11 +24,14 @@ const Home = () => {
               advice to win clients from all over the world. Since our inception,
               we have been dedicated to assisting.
             </p>
+
+            <AnimatedText text="Home" />
+
             
 
-            <div className="text-base md:text-lg lg:text-[1.125rem] text-white border border-white rounded-full py-2 md:py-3 lg:py-[0.9rem] px-4 md:px-6 lg:px-[2.6rem] leading-tight md:leading-[1.5rem] lg:leading-[1.625rem] tracking-wide md:tracking-[0.5px] lg:tracking-[1px] w-fit">
-              Our Services
-            </div>
+            <Button borderRadius="2.75rem" className="text-base md:text-lg lg:text-[1.125rem] text-white border border-white rounded-full py-2 md:py-3 lg:py-[0.9rem] px-4 md:px-6 lg:px-[1.75rem] leading-tight md:leading-[1.5rem] lg:leading-[1.625rem] tracking-wide md:tracking-[0.5px] lg:tracking-[1px] whitespace-nowrap">
+  Our Services
+</Button>
            
           </div>
           <div className="w-full lg:w-[47%] p-4 flex justify-center">
@@ -31,7 +39,14 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* <Button
+        borderRadius="1.75rem"
+        className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+      >
+        Borders are cool
+      </Button> */}
     </div>
+    
   );
 };
 

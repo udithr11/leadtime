@@ -2,7 +2,8 @@ import './App.css';
 import Home from './components/Home';
 import About from './components/About';
 import ChooseUs from './components/ChooseUs';
-import Services from './components/Services';
+// import Services from './components/Services';
+
 
 
 
@@ -14,7 +15,8 @@ function App() {
     <Home/>
     <About/>
     <ChooseUs/>
-    <Services/>
+    
+    {/* <Services/> */}
 
     </>
   );

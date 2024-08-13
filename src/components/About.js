@@ -1,6 +1,7 @@
 import React from "react";
 import aboutImage from "../assets/about.png";
 
+
 const About = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center lg:items-start bg-[#F7F7F7]">
