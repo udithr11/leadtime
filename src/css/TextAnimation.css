@@ -2,6 +2,7 @@
   position: relative;
   display: inline-block;
   overflow: hidden;
+  vertical-align:bottom;
 }
 
 .text {
@@ -9,7 +10,7 @@
   font-size: 6rem;
   color: white;
   display: inline-flex;
-  line-height:4.5rem;;
+  line-height:0.75;
 }
 
 .text span {

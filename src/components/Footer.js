@@ -13,7 +13,7 @@ const Footer = () => {
     <>
     <footer className=" text-white px-4 md:px-[6rem] lg:px-[9rem] pt-16 md:pt-24 lg:pt-24   bg-no-repeat bg-cover pb-24" style={{ backgroundImage: `url(${bg})` }}>
 
-    <div className='font-[400] text-[6rem] leading-7 pb-16'>
+    <div className='font-[400] text-[6rem] leading-[0.74] pb-16'>
         Let’s have a <TextAnimation firstText="chat!" secondText="chat!" />
       </div>
         <hr className='pb-16'/>
