@@ -16,14 +16,23 @@ export default function ControlledAccordions() {
     fontSize: '20px',
     lineHeight: '28px',
     letterSpacing: '1px',
-    color:'#333333',
+    color: '#333333',
+    '@media (max-width: 600px)': {
+      fontSize: '16px',
+      lineHeight: '24px',
+    },
   };
+
   const textStyles = {
     fontWeight: 500,
     fontSize: '18px',
     lineHeight: '26px',
     letterSpacing: '1px',
     color: '#FFFFFFCC',
+    '@media (max-width: 600px)': {
+      fontSize: '14px',
+      lineHeight: '22px',
+    },
   };
 
   return (
@@ -45,7 +54,8 @@ export default function ControlledAccordions() {
           expandIcon={<AddIcon sx={{ color: expanded === 'panel1' ? 'white' : '#333333' }} />}
           aria-controls="panel1bh-content"
     id="panel1bh-header"
-    sx={{ py: 2, px: 5 }}
+    sx={{ py: { xs: 1, sm: 1.5, md: 2 },  
+          px: { xs: 2, sm: 3, md: 5 }, }}
   >
     <Typography
       sx={{
@@ -58,7 +68,7 @@ export default function ControlledAccordions() {
       Project managers who believe in the power of creative communication ?
     </Typography>
   </AccordionSummary>
-  <AccordionDetails sx={{ p: 0, px: 5, mt: -1, pb: 4 }}>
+  <AccordionDetails sx={{ p: 0, px: { xs: 2, sm: 3, md: 5 }, mt: -1, pb: 4 }}>
     <Typography sx={{ ...textStyles, color: expanded === 'panel1' ? '#FFFFFFCC' : '#222220' }}>
       At Lead Time, we are a dedicated team of marketing enthusiasts, designers, and project managers who believe in the power of creative communication. Our agency was founded with the vision of revolutionizing the advertising landscape through cutting-edge BTL strategies and eye-catching displays.
     </Typography>
@@ -82,7 +92,8 @@ export default function ControlledAccordions() {
           expandIcon={<AddIcon sx={{ color: expanded === 'panel2' ? 'white' : '#333333' }} />}
           aria-controls="panel1bh-content"
     id="panel1bh-header"
-    sx={{ py: 2, px: 5 }}
+    sx={{ py: { xs: 1, sm: 1.5, md: 2 },  
+          px: { xs: 2, sm: 3, md: 5 }, }}
   >
     <Typography
       sx={{
@@ -95,7 +106,7 @@ export default function ControlledAccordions() {
       Our agency was founded with the vision of revolutionizing the advertising ?
     </Typography>
   </AccordionSummary>
-  <AccordionDetails sx={{ p: 0, px: 5, mt: -1, pb: 4 }}>
+  <AccordionDetails sx={{ p: 0, px: { xs: 2, sm: 3, md: 5 }, mt: -1, pb: 4 }}>
     <Typography sx={{ ...textStyles, color: expanded === 'panel2' ? '#FFFFFFCC' : '#222220' }}>
       At Lead Time, we are a dedicated team of marketing enthusiasts, designers, and project managers who believe in the power of creative communication. Our agency was founded with the vision of revolutionizing the advertising landscape through cutting-edge BTL strategies and eye-catching displays.
     </Typography>
@@ -120,7 +131,8 @@ export default function ControlledAccordions() {
           expandIcon={<AddIcon sx={{ color: expanded === 'panel3' ? 'white' : '#333333' }} />}
           aria-controls="panel1bh-content"
     id="panel1bh-header"
-    sx={{ py: 2, px: 5 }}
+    sx={{ py: { xs: 1, sm: 1.5, md: 2 },  
+          px: { xs: 2, sm: 3, md: 5 }, }}
   >
     <Typography
       sx={{
@@ -133,7 +145,7 @@ export default function ControlledAccordions() {
      Lead Time, we are a dedicated team of marketing enthusiasts ?
     </Typography>
   </AccordionSummary>
-  <AccordionDetails sx={{ p: 0, px: 5, mt: -1, pb: 4 }}>
+  <AccordionDetails sx={{ p: 0, px: { xs: 2, sm: 3, md: 5 }, mt: -1, pb: 4 }}>
     <Typography sx={{ ...textStyles, color: expanded === 'panel3' ? '#FFFFFFCC' : '#222220' }}>
       At Lead Time, we are a dedicated team of marketing enthusiasts, designers, and project managers who believe in the power of creative communication. Our agency was founded with the vision of revolutionizing the advertising landscape through cutting-edge BTL strategies and eye-catching displays.
     </Typography>
@@ -158,7 +170,8 @@ export default function ControlledAccordions() {
           expandIcon={<AddIcon sx={{ color: expanded === 'panel4' ? 'white' : '#333333' }} />}
           aria-controls="panel1bh-content"
     id="panel1bh-header"
-    sx={{ py: 2, px: 5 }}
+    sx={{ py: { xs: 1, sm: 1.5, md: 2 },  
+          px: { xs: 2, sm: 3, md: 5 }, }}
   >
     <Typography
       sx={{
@@ -171,7 +184,7 @@ export default function ControlledAccordions() {
       Advertising landscape through cutting-edge strategies and eye-catching display ?
     </Typography>
   </AccordionSummary>
-  <AccordionDetails sx={{ p: 0, px: 5, mt: -1, pb: 4 }}>
+  <AccordionDetails sx={{ p: 0, px: { xs: 2, sm: 3, md: 5 }, mt: -1, pb: 4 }}>
     <Typography sx={{ ...textStyles, color: expanded === 'panel4' ? '#FFFFFFCC' : '#222220' }}>
       At Lead Time, we are a dedicated team of marketing enthusiasts, designers, and project managers who believe in the power of creative communication. Our agency was founded with the vision of revolutionizing the advertising landscape through cutting-edge BTL strategies and eye-catching displays.
     </Typography>
@@ -196,7 +209,8 @@ export default function ControlledAccordions() {
           expandIcon={<AddIcon sx={{ color: expanded === 'panel5' ? 'white' : '#333333' }} />}
           aria-controls="panel1bh-content"
     id="panel1bh-header"
-    sx={{ py: 2, px: 5 }}
+    sx={{ py: { xs: 1, sm: 1.5, md: 2 },  
+          px: { xs: 2, sm: 3, md: 5 }, }}
   >
     <Typography
       sx={{
@@ -209,7 +223,7 @@ export default function ControlledAccordions() {
       Marketing enthusiasts project managers who believe in the power of creative ?
     </Typography>
   </AccordionSummary>
-  <AccordionDetails sx={{ p: 0, px: 5, mt: -1, pb: 4 }}>
+  <AccordionDetails sx={{ p: 0, px: { xs: 2, sm: 3, md: 5 }, mt: -1, pb: 4 }}>
     <Typography sx={{ ...textStyles, color: expanded === 'panel5' ? '#FFFFFFCC' : '#222220' }}>
       At Lead Time, we are a dedicated team of marketing enthusiasts, designers, and project managers who believe in the power of creative communication. Our agency was founded with the vision of revolutionizing the advertising landscape through cutting-edge BTL strategies and eye-catching displays.
     </Typography>
