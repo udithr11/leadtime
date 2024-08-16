@@ -4,6 +4,7 @@ import About from './components/About';
 import ChooseUs from './components/ChooseUs';
 import Footer from './components/Footer';
 import Faq from './components/Faq';
+import Testimonial from './components/Testimonial';
 
 // import Services from './components/Services';
 
@@ -18,6 +19,7 @@ function App() {
     <Home/>
     <About/>
     <ChooseUs/>
+    <Testimonial/>
     <Faq/>
     <Footer/>
     </>

@@ -3,11 +3,12 @@ import icon1 from '../assets/icon1.svg';
 import icon2 from '../assets/icon2.svg';
 import icon3 from '../assets/icon3.svg';
 import icon4 from '../assets/icon4.svg';
+import '../css/chooseUs.css'
 
 const ChooseUs = () => {
   return (
     <div className='bg-[#222220]'>
-      <div className='px-4 md:px-[6rem] lg:px-[9rem] pt-16 md:pt-24 lg:pt-24 pb-16 md:pb-20 lg:pb-24'>
+      <div className='px-4 md:px-[6rem] lg:px-[9rem] pt-16 md:pt-24 lg:pt-24 pb-16 md:pb-20 lg:pb-24 choose_main'>
         <p className='text-center text-white font-normal text-[16px] md:text-[18px] leading-[22px] md:leading-[26px] tracking-[0.5px] md:tracking-[1px]'>
           ABOUT US
         </p>
@@ -16,7 +17,7 @@ const ChooseUs = () => {
         </h1>
 
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0">
-          <div className="p-6 border border-solid border-[#FFFFFF33] rounded-tl-xl rounded-bl-xl">
+          <div className="p-6 border border-solid border-[#FFFFFF33] rounded-tl-xl rounded-bl-xl box_1">
             <div className='w-[4.375rem] h-[4.375rem] rounded-full flex justify-center items-center bg-[#2D2D2B] my-4'>
               <img src={icon1} alt="Icon 1" className='w-[1.75rem]' />
             </div>
@@ -28,7 +29,7 @@ const ChooseUs = () => {
             </p>
           </div>
 
-          <div className="p-6 border border-solid border-[#FFFFFF33]">
+          <div className="p-6 border border-solid border-[#FFFFFF33] box_2">
             <div className='w-[4.375rem] h-[4.375rem] rounded-full flex justify-center items-center bg-[#2D2D2B] my-4'>
               <img src={icon2} alt="Icon 2" className='w-[1.75rem]' />
             </div>
@@ -40,7 +41,7 @@ const ChooseUs = () => {
             </p>
           </div>
 
-          <div className="p-6 border border-solid border-[#FFFFFF33]">
+          <div className="p-6 border border-solid border-[#FFFFFF33] box_3">
             <div className='w-[4.375rem] h-[4.375rem] rounded-full flex justify-center items-center bg-[#2D2D2B] my-4'>
               <img src={icon3} alt="Icon 3" className='w-[1.75rem]' />
             </div>
@@ -52,7 +53,7 @@ const ChooseUs = () => {
             </p>
           </div>
 
-          <div className="p-6 border border-solid border-[#FFFFFF33] rounded-tr-xl rounded-br-xl">
+          <div className="p-6 border border-solid border-[#FFFFFF33]  rounded-tr-xl rounded-br-xl box_4">
             <div className='w-[4.375rem] h-[4.375rem] rounded-full flex justify-center items-center bg-[#2D2D2B] my-4'>
               <img src={icon4} alt="Icon 4" className='w-[1.75rem]' />
             </div>

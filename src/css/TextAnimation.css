@@ -25,7 +25,6 @@
   left: 0;
 }
 
-/* Apply delay for each letter */
 .text span:nth-child(1) { transition-delay: 0.05s; }
 .text span:nth-child(2) { transition-delay: 0.1s; }
 .text span:nth-child(3) { transition-delay: 0.15s; }
@@ -39,11 +38,23 @@
 .text span:nth-child(11) { transition-delay: 0.55s; }
 .text span:nth-child(12) { transition-delay: 0.6s; }
 
-/* Hover effect */
 .text-wrapper:hover .text.first span {
   transform: translateY(-100%);
 }
 
 .text-wrapper:hover .text.second span {
   transform: translateY(-100%);
+}
+@media (max-width: 768px) { 
+  .text {
+    font-size: 5rem !important;
+    
+  }
+}
+
+@media (max-width: 640px) { 
+  .text {
+    font-size: 3rem !important;
+    
+  }
 }

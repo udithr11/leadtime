@@ -11,11 +11,12 @@ import TextAnimation from './ui/TextAnimation';
 const Footer = () => {
   return (
     <>
-    <footer className=" text-white px-4 md:px-[6rem] lg:px-[9rem] pt-16 md:pt-24 lg:pt-24   bg-no-repeat bg-cover pb-24" style={{ backgroundImage: `url(${bg})` }}>
+    <footer className=" text-white px-8 md:px-[6rem] lg:px-[9rem] pt-16 md:pt-24 lg:pt-24   bg-no-repeat bg-cover pb-24" style={{ backgroundImage: `url(${bg})` }}>
 
-    <div className='font-[400] text-[6rem] leading-[0.74] pb-16'>
-        Let’s have a <TextAnimation firstText="chat!" secondText="chat!" />
-      </div>
+    <div className='font-[400] text-[3rem] sm:text-[5rem] md:text-[6rem] leading-[0.74] pb-16 sm:pb-18 md:pb-16'>
+  Let’s have a <TextAnimation firstText="chat!" secondText="chat!" />
+</div>
+
         <hr className='pb-16'/>
 
       <div className="container mx-auto  m-0">
