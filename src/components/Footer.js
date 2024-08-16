@@ -30,10 +30,10 @@ const Footer = () => {
           <div className="w-full md:w-[18%] mb-8">
     <h3 className="font-medium text-[1.5rem] leading-8 tracking-[0.15rem] mb-8">Quick Links</h3>
     <ul className="space-y-2">
-      <li><a href="#" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">Home</a></li>
-      <li><a href="#" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">About Us</a></li>
-      <li><a href="#" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">Services</a></li>
-      <li><a href="#" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">Contact Us</a></li>
+      <li><a href="/" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">Home</a></li>
+      <li><a href="/" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">About Us</a></li>
+      <li><a href="/" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">Services</a></li>
+      <li><a href="/" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">Contact Us</a></li>
     </ul>
   </div>
           <div className="w-full md:w-[18%] md:pl-4 mb-8">
@@ -45,16 +45,16 @@ const Footer = () => {
   <div className="w-full md:w-[27%] mb-8 md:pl-[6rem]">
     <h3 className="font-medium text-[1.5rem] leading-8 tracking-[0.15rem] mb-8">Social Media</h3>
     <div className="flex space-x-4">
-    <a href="#" className="w-[50px] h-[43px] rounded-full flex items-center justify-center" style={{ border: '1px solid #FFFFFF99' }}>
+    <a href="/" className="w-[50px] h-[43px] rounded-full flex items-center justify-center" style={{ border: '1px solid #FFFFFF99' }}>
   <img src={insta} alt="" className="w-full h-full  rounded-full max-w-[50%]" />
 </a>
-<a href="#" className="w-[50px] h-[43px] rounded-full flex items-center justify-center" style={{ border: '1px solid #FFFFFF99' }}>
+<a href="/" className="w-[50px] h-[43px] rounded-full flex items-center justify-center" style={{ border: '1px solid #FFFFFF99' }}>
   <img src={linkenin} alt="" className="w-full h-full  rounded-full max-w-[50%]" />
 </a>     
-<a href="#" className="w-[50px] h-[43px] rounded-full flex items-center justify-center" style={{ border: '1px solid #FFFFFF99' }}>
+<a href="/" className="w-[50px] h-[43px] rounded-full flex items-center justify-center" style={{ border: '1px solid #FFFFFF99' }}>
   <img src={thread} alt="" className="w-full h-full  rounded-full max-w-[50%]" />
 </a> 
-<a href="#" className="w-[50px] h-[43px] rounded-full flex items-center justify-center" style={{ border: '1px solid #FFFFFF99' }}>
+<a href="/" className="w-[50px] h-[43px] rounded-full flex items-center justify-center" style={{ border: '1px solid #FFFFFF99' }}>
   <img src={fb} alt="" className="w-full h-full  rounded-full max-w-[60%]" />
 </a> 
     </div>
