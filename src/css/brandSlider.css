@@ -1,46 +1,54 @@
 @keyframes scroll {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-100% / 2)); } /* Scroll half the width of the track */
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% / 2));
+  } /* Scroll half the width of the track */
 }
 
 .slider {
-    background: rgb(247, 247, 247);
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
+  background: rgb(247, 247, 247);
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
 .slider::before,
 .slider::after {
-    background: linear-gradient(to right, rgba(247,247,247,1) 0%, rgba(247,247,247,0) 100%);
-    content: "";
-    height: 100%;
-    position: absolute;
-    width: 200px;
-    z-index: 2;
+  background: linear-gradient(
+    to right,
+    rgba(247, 247, 247, 1) 0%,
+    rgba(247, 247, 247, 0) 100%
+  );
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
 }
 
 .slider::after {
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
 }
 
 .slider::before {
-    left: 0;
-    top: 0;
+  left: 0;
+  top: 0;
 }
 
 .slide-track {
-    animation: scroll 20s linear infinite;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; 
-    gap: 100px; 
-    width: calc(100% * 2.6); 
+  animation: scroll 20s linear infinite;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 100px;
+  width: calc(100% * 2.6);
 }
 
 .slide {
-    width: fit-content;
+  width: fit-content;
 }

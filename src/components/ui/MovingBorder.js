@@ -7,7 +7,7 @@ import {
   useMotionValue,
   useTransform,
 } from "framer-motion";
-import { cn } from "../../utils/cn"; 
+import { cn } from "../../utils/cn";
 
 export function Button({
   borderRadius = "1.75rem",
@@ -76,7 +76,6 @@ export const MovingBorder = ({
       progress.set((time * pxPerMillisecond) % length);
     }
   });
-  
 
   const x = useTransform(
     progress,
@@ -100,27 +99,25 @@ export const MovingBorder = ({
         {...otherProps}
       >
         <rect
-  fill="none"
-  width="100%"
-  height="100%"
-  rx={rx}
-  ry={ry}
-  ref={pathRef}
-/>
-
+          fill="none"
+          width="100%"
+          height="100%"
+          rx={rx}
+          ry={ry}
+          ref={pathRef}
+        />
       </svg>
       <motion.div
-  style={{
-    position: "absolute",
-    top: 0,
-    left: 0,
-    display: "inline-block",
-    transform,
-  }}
->
-  {children}
-</motion.div>
-
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          display: "inline-block",
+          transform,
+        }}
+      >
+        {children}
+      </motion.div>
     </>
   );
 };
