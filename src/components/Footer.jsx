@@ -72,7 +72,7 @@ const Footer = () => {
                     <img
                       src={icon}
                       alt=""
-                      className={`w-full   max-w-[${index === 3 ? '60%' : '50%'}]`}
+                      className={`w-[1.25rem]   max-w-[100%]`}
                     />
                   </a>
                 ))}
