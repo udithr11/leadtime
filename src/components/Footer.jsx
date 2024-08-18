@@ -59,7 +59,7 @@ const Footer = () => {
                 </p>
               ))}
             </div>
-            <div className="w-full md:w-[27%] mb-8 md:pl-[6rem]">
+            <div className="w-full md:w-[27%] mb-8 md:pl-[6rem] rounded-full">
               <h3 className={headingStyle}>Social Media</h3>
               <div className="flex space-x-4">
                 {[insta, linkenin, thread, fb].map((icon, index) => (
@@ -72,7 +72,7 @@ const Footer = () => {
                     <img
                       src={icon}
                       alt=""
-                      className={`w-full h-full rounded-full max-w-[${index === 3 ? '60%' : '50%'}]`}
+                      className={`w-full   max-w-[${index === 3 ? '60%' : '50%'}]`}
                     />
                   </a>
                 ))}
