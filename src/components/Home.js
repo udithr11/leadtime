@@ -4,16 +4,15 @@ import React from "react";
 import HomeImage from "../assets/Home-bg.png";
 import HomeImage1 from "../assets/Home-1.png";
 import { Button } from "../components/ui/MovingBorder";
-// import AnimatedText from "./ui/AnimatedText";
 
 
 const Home = () => {
   return (
     <div
-      className="bg-no-repeat bg-cover min-h-screen flex items-center"
+      className="bg-no-repeat bg-cover min-h-screen  items-center"
       style={{ backgroundImage: `url(${HomeImage})` }}
     >
-      <div className="px-4 md:px-8 lg:px-[8rem] pt-16 md:pt-24 lg:pt-32 pb-12 md:pb-16 lg:pb-20">
+      <div className="px-4 md:px-8 lg:px-[8rem] pt-16 md:pt-24 lg:pt-32 pb-12 md:pb-16 lg:pb-20 ">
         <div className="flex flex-col lg:flex-row justify-center lg:justify-between">
           <div className="w-full lg:w-[47%] p-4 flex flex-col justify-center">
             <h1 className="text-2xl md:text-3xl lg:text-[4rem] font-medium text-white tracking-wide md:tracking-[0.5px] lg:tracking-[0.6px] pb-2 md:pb-3 lg:pb-[0.5rem] mb-0 leading-tight md:leading-[3rem] lg:leading-[4.75rem]">
@@ -25,7 +24,7 @@ const Home = () => {
               we have been dedicated to assisting.
             </p>
 
-            {/* <AnimatedText text="Home" /> */}
+            
 
             
 

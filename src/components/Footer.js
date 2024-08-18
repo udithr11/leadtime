@@ -6,6 +6,7 @@ import linkenin from '../assets/linkedin.svg';
 import thread from '../assets/thread.svg';
 import fb from '../assets/fb.svg';
 import TextAnimation from './ui/TextAnimation';
+import '../css/TextAnimation.css'
 
 
 const Footer = () => {
@@ -30,10 +31,10 @@ const Footer = () => {
           <div className="w-full md:w-[18%] mb-8">
     <h3 className="font-medium text-[1.5rem] leading-8 tracking-[0.15rem] mb-8">Quick Links</h3>
     <ul className="space-y-2">
-      <li><a href="/" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">Home</a></li>
-      <li><a href="/" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">About Us</a></li>
-      <li><a href="/" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">Services</a></li>
-      <li><a href="/" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">Contact Us</a></li>
+      <li><a href="#home" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">Home</a></li>
+      <li><a href="#chooseus" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">About Us</a></li>
+      <li><a href="#services" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">Services</a></li>
+      <li><a href="#footer" className="font-normal text-base leading-7 tracking-[0.07rem] text-[#FFFFFFCC]">Contact Us</a></li>
     </ul>
   </div>
           <div className="w-full md:w-[18%] md:pl-4 mb-8">

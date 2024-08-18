@@ -7,10 +7,11 @@
 
 .text {
   --duration: 0.44s;
-  font-size: 6rem;
+  font-size: 6rem ;
   color: white;
   display: inline-flex;
-  line-height:0.75;
+  line-height:0.75 ;
+  cursor:pointer;
 }
 
 .text span {

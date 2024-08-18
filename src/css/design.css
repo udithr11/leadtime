@@ -1,0 +1,32 @@
+.design{
+    font-size:10rem;
+    line-height:11rem;
+}
+
+@media (max-width:1300px){
+    .design{
+        font-size:7.5rem;
+    line-height: 8.5rem;
+    }
+}
+
+@media (max-width:960px){
+    .design{
+        font-size:5.5rem;
+    line-height: 6.5rem;
+    }
+}
+
+@media (max-width:767px){
+    .design{
+        font-size:4.5rem;
+    line-height: 5.5rem;
+    }
+}
+@media (max-width:500px){
+    .design{
+        font-size:3.5rem;
+    line-height: 4.5rem;
+    }
+}
+

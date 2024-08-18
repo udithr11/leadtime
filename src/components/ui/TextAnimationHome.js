@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../css/TextAnimation.css';
+import '../../css/TextAnimationHome.css';
 
-const TextAnimation = ({ firstText, secondText }) => {
+const TextAnimationHome = ({ firstText, secondText }) => {
   const wrapTextInSpans = (text) => {
     return text.split('').map((char, index) => (
       <span key={index}>{char}</span>
@@ -9,15 +9,15 @@ const TextAnimation = ({ firstText, secondText }) => {
   };
 
   return (
-    <div className="text-wrapper">
-      <div className="text first">
+    <div className="home-wrapper">
+      <div className="home first">
         {wrapTextInSpans(firstText)}
       </div>
-      <div className="text second">
+      <div className="home second">
         {wrapTextInSpans(secondText)}
       </div>
     </div>
   );
 };
 
-export default TextAnimation;
+export default TextAnimationHome;

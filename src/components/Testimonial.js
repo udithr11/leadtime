@@ -103,64 +103,65 @@ const TestimonialCarousel = () => {
           ))}
         </Swiper>
         {!isMobile && (
-          <Box
-            sx={{
-              position: 'absolute',
-              bottom: 0,
-              left: '50%',
-              transform: 'translateX(-50%)',
-              display: 'flex',
-              gap: 2,
-            }}
-          >
-            <Box
-              className="swiper-button-next"
-              sx={{
-                width: { sm: 28, md: 30 },
-                height: { sm: 26, md: 28 },
-                borderRadius: '50%',
-                padding: '5px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                border: '1px solid #222220',
-                cursor: 'pointer',
-                '&::after': { display: 'none' },
-                '&:hover': {
-                  backgroundColor: '#222220', 
-                  '& svg': {
-                    color: 'white', 
-                  },
-                },
-              }}
-            >
-              <KeyboardArrowLeftIcon sx={{ color: '#222220', fontSize: { sm: '16px', md: '18px' } }} />
-            </Box>
-            <Box
-              className="swiper-button-prev"
-              sx={{
-                width: { sm: 28, md: 30 },
-                height: { sm: 26, md: 28 },
-                borderRadius: '50%',
-                padding: '5px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                border: '1px solid #222220',
-                cursor: 'pointer',
-                '&:hover': {
-                backgroundColor: '#222220', 
-                '& svg': {
-                  color: 'white', 
-                },
-              },
-                '&::after': { display: 'none' },
-              }}
-            >
-              <KeyboardArrowRightIcon sx={{ color: '#222220', fontSize: { sm: '16px', md: '18px' } }} />
-            </Box>
-          </Box>
-        )}
+  <Box
+    sx={{
+      position: 'absolute',
+      bottom: 0,
+      left: '50%',
+      transform: 'translateX(-50%)',
+      display: 'flex',
+      gap: 2,
+    }}
+  >
+    <Box
+      className="swiper-button-next" 
+      sx={{
+        width: { sm: 28, md: 30 },
+        height: { sm: 26, md: 28 },
+        borderRadius: '50%',
+        padding: '5px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        border: '1px solid #222220',
+        cursor: 'pointer',
+        '&:hover': {
+          backgroundColor: '#222220', 
+          '& svg': {
+            color: 'white', 
+          },
+        },
+        '&::after': { display: 'none' },
+      }}
+    >
+      <KeyboardArrowLeftIcon sx={{ color: '#222220', fontSize: { sm: '16px', md: '18px' } }} />
+    </Box>
+    <Box
+      className="swiper-button-prev" 
+      sx={{
+        width: { sm: 28, md: 30 },
+        height: { sm: 26, md: 28 },
+        borderRadius: '50%',
+        padding: '5px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        border: '1px solid #222220',
+        cursor: 'pointer',
+        '&::after': { display: 'none' },
+        '&:hover': {
+          backgroundColor: '#222220', 
+          '& svg': {
+            color: 'white', 
+          },
+        },
+      }}
+    >
+      <KeyboardArrowRightIcon sx={{ color: '#222220', fontSize: { sm: '16px', md: '18px' } }} />
+    </Box>
+  </Box>
+)}
+        
       </Box>
     </div>
   );
