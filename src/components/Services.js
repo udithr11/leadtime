@@ -64,7 +64,7 @@ const Services = () => {
             releaseOnEdges: true,
           }}
           freeMode={true}
-        slidesPerView={1}
+        slidesPerView={1.5}
         breakpoints={{
           640: {
             slidesPerView: 2.5,

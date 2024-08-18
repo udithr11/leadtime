@@ -1,7 +1,7 @@
 import React from 'react';
 import WorkSlider from './WorkSlider';
 
-const works = () => {
+const Works = () => {
   return (
     <div>
         <p className='text-center text-black font-normal text-[16px] md:text-[18px] leading-[22px] md:leading-[26px] tracking-[0.5px] md:tracking-[1px]'>
@@ -21,4 +21,4 @@ const works = () => {
   )
 }
 
-export default works
+export default Works;
